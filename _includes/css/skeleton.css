@@ -40,6 +40,10 @@
     .container .half.column  { width: 48%; }
     .container .big.column   { width: 98%; }
     .container .full.column  { width: 98%; }
+
+    /*my additions*/
+    #cover { display: none; }
+    .p-cover { display: none; }
   }
 
 
@@ -52,6 +56,10 @@
     .container .half.column  { width: 46%; }
     .container .big.column   { width: 96%; }
     .container .full.column  { width: 96%; }
+
+    /*my additions*/
+    #cover { display: none; }
+    .p-cover { display: none; }
   }
 
 

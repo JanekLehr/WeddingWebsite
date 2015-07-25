@@ -1,3 +1,25 @@
 nav {
-  background:#CCBE8F;
+    /*background:#9F000F;*/
+    background:#C87533;
+}
+
+#footer {
+    /*background-color:#9F000F;*/
+    background-color:#C87533;
+}
+
+#cover {
+    /*background: url("/img/intro-background.jpg") fixed 50% / contain;*/
+    height: 100vh;
+  /*background-size: 100% 100%;*/
+
+    background: url("/img/intro-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input[type="text"] {
+    margin: 0 auto 1em auto;
 }

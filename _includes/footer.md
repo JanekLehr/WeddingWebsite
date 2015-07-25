@@ -1,6 +1,6 @@
 
 
-Design by Janek Lehr
+Designed by Janek Lehr
 &mdash;
 [SinglePaged theme](https://github.com/t413/SinglePaged)
 &mdash;

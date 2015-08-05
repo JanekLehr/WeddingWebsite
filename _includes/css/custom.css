@@ -1,25 +1,73 @@
 nav {
-    /*background:#9F000F;*/
+    /*background:#71291d;*/
     background:#C87533;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
 }
 
 #footer {
-    /*background-color:#9F000F;*/
     background-color:#C87533;
 }
 
 #cover {
-    /*background: url("/img/intro-background.jpg") fixed 50% / contain;*/
+    /*background-image: url("/img/Home.png");*/
+
+    /*background: url("/img/Home.png")  50% / contain;*/
     height: 100vh;
+    /*padding: 0%;*/
   /*background-size: 100% 100%;*/
 
-    background: url("/img/intro-background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url("/img/Home.png") no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.thumbnail_container {
+    position: absolute;
+    height: 100%;
+    /*padding: 50% 50%*/
+    /*padding-bottom: 100%;*/
+    /*float:left;*/
+    vertical-align: middle;
+}
+
+.thumbnail {
+    position:relative;
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background: url("/img/Home.png") no-repeat fixed 50% 50%;
+}
+
+.thumbnail img {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 input[type="text"] {
     margin: 0 auto 1em auto;
 }
+
+/* ----- Mobile (Portrait) ----- */
+  @media only screen and (max-width: 767px) {
+    nav {
+        font-size: 1em;
+    }
+}
+
+/* ----- Mobile (Landscape) -- 480px ----- */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    nav {
+        font-size: 1em;
+    }
+}
+

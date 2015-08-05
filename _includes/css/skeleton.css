@@ -42,8 +42,8 @@
     .container .full.column  { width: 98%; }
 
     /*my additions*/
-    #cover { display: none; }
-    .p-cover { display: none; }
+    /*#cover { display: none; }*/
+    /*.p-cover { display: none; }*/
   }
 
 
@@ -58,8 +58,8 @@
     .container .full.column  { width: 96%; }
 
     /*my additions*/
-    #cover { display: none; }
-    .p-cover { display: none; }
+    /*#cover { display: none; }*/
+    /*.p-cover { display: none; }*/
   }
 
 

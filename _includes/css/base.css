@@ -52,7 +52,8 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "Raleway" "HelveticaNeue-Light", Arial, sans-serif;
+		font-family: 'Amatic SC', cursive;
+		/*font: 14px/21px "Raleway" "HelveticaNeue-Light", Arial, sans-serif;*/
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -150,7 +151,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: 'Amatic SC', cursive, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 	.button:hover,
 	button:hover,

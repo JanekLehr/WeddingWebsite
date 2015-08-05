@@ -18,10 +18,10 @@ nav {
   /*background-size: 100% 100%;*/
 
     background: url("/img/Home.png") no-repeat center center fixed;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: auto 60%;
+    -moz-background-size: auto 60%;
+    -o-background-size: auto 60%;
+    background-size: auto 60%;
 }
 
 .thumbnail_container {
@@ -60,6 +60,10 @@ input[type="text"] {
 /* ----- Mobile (Portrait) ----- */
   @media only screen and (max-width: 767px) {
     nav {
+        -webkit-background-size: auto 25%;
+        -moz-background-size: auto 25%;
+        -o-background-size: auto 25%;
+        background-size: auto 25%;
         font-size: 1em;
     }
 }
@@ -67,6 +71,10 @@ input[type="text"] {
 /* ----- Mobile (Landscape) -- 480px ----- */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     nav {
+        -webkit-background-size: auto 25%;
+        -moz-background-size: auto 25%;
+        -o-background-size: auto 25%;
+        background-size: auto 25%;
         font-size: 1em;
     }
 }

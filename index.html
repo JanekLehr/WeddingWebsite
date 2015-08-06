@@ -32,20 +32,16 @@
       <div id="{{id}}" class="section p-{{id}}">
         {% if page.icon %}
         <div class="subtlecircle sectiondivider imaged">
-          <!--<img src="{{page.icon}}" alt="section icon" />-->
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa {{ page.icon }} fa-stack-1x"></i>
-          </span>
+          <img src="{{page.icon}}" alt="section icon" />
           <h5 class="icon-title">{{ page.title }}</h5>
         </div>
         {% elsif page.fa-icon %}
         <div class="subtlecircle sectiondivider faicon">
           <span class="fa-stack">
             <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
+            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x {{ page.icon-color }}"></i>
           </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
+          <h5 class="icon-title {{ page.icon-color }}">{{ page.title }}</h5>
         </div>
         {% endif %}
 

@@ -19,10 +19,10 @@ html { box-sizing: border-box; }
   {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
-  nav .p-{{id}} { border-color: {{ bg }}; }
+  nav .p-{{id}} { border-color: {{ node.icon-color }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
-  #{{id}} .sectiondivider { color: {{ bg }}; }
+  #{{id}} .sectiondivider { color: {{ node.icon-color }}; }
 {% endfor %}
 
 
@@ -326,6 +326,10 @@ nav ul li:hover, nav ul li.active {
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
 
+    .container p, .container ol, .container ul, .container label {
+      font-size: 17px;
+      padding: 0 5%;
+    }
 
   .section { padding:130px 0; }
   .sectiondivider {
@@ -354,4 +358,8 @@ nav ul li:hover, nav ul li.active {
     -moz-column-count:    2;
     column-count:         2;
   }
+
+  input[type=submit] {
+    font-size: 17px;
+}
 }

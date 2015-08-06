@@ -13,10 +13,8 @@ nav {
     background-color:#C87533;
 }
 
-#cover {
-
+#home {
     height: 100vh;
-
     background: url("/img/Home.png") no-repeat center center fixed;
     background-size: auto 60%;
     -webkit-background-size: auto 60%;
@@ -57,8 +55,15 @@ nav {
     /*margin: auto;*/
 /*}*/
 
+label {
+    font-family: 'Amatic SC', cursive;
+}
+
 input[type="text"] {
     margin: 0 auto 1em auto;
+}
+input[type=submit] {
+    font-size: 20px;
 }
 
 /* ----- Mobile (Portrait) ----- */

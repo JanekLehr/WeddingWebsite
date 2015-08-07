@@ -361,5 +361,9 @@ nav ul li:hover, nav ul li.active {
 
   input[type=submit] {
     font-size: 17px;
-}
+  }
+
+  #hotel_map {
+    display: none;
+  }
 }

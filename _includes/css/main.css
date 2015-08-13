@@ -366,4 +366,8 @@ nav ul li:hover, nav ul li.active {
   #hotel_map {
     display: none;
   }
+
+  .registry_logo {
+    height: 50%
+}
 }

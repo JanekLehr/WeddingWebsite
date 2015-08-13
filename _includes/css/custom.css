@@ -22,8 +22,8 @@ nav {
     -o-background-size: auto 60%;
 }
 
-.orange_icon{
-    color: #FBC557;
+.registry_logo {
+    width: 25%
 }
 
 /*.thumbnail_container {*/
@@ -39,11 +39,11 @@ nav {
     /*position:relative;*/
     /*width:100%;*/
     /*height:100%;*/
-    /*background-size: 100% 100%;*/
-    /*-webkit-background-size: 100% 100%;*/
-    /*-moz-background-size: 100% 100%;*/
-    /*-o-background-size: 100% 100%;*/
-    /*background: url("/img/Home.png") no-repeat fixed 50% 50%;*/
+    /*/!*background-size: 100% 100%;*!/*/
+    /*/!*-webkit-background-size: 100% 100%;*!/*/
+    /*/!*-moz-background-size: 100% 100%;*!/*/
+    /*/!*-o-background-size: 100% 100%;*!/*/
+    /*/!*background: url("/img/Home.png") no-repeat fixed 50% 50%;*!/*/
 /*}*/
 
 /*.thumbnail img {*/
@@ -64,6 +64,9 @@ input[type="text"] {
 }
 input[type=submit] {
     font-size: 20px;
+}
+textarea {
+    margin: 0 auto 1em auto;
 }
 
 /* ----- Mobile (Portrait) ----- */

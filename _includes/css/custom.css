@@ -22,6 +22,10 @@ nav {
     -o-background-size: auto 60%;
 }
 
+#home_logo {
+    display: none;
+}
+
 .registry_logo {
     width: 25%
 }
@@ -69,29 +73,54 @@ textarea {
     margin: 0 auto 1em auto;
 }
 
+/* anything not desktop */
+@media only screen and (max-width: 767px) {
+    #home_logo {
+        display: block;
+        width: 75%;
+        height: auto;
+        vertical-align: middle;
+        margin: auto;
+    }
+    #home {
+        background: none;
+    }
+}
+
 /* ----- Mobile (Portrait) ----- */
 @media only screen and (max-width: 767px) {
-    #cover {
-        -webkit-background-size: auto 60%;
-        -moz-background-size: auto 60%;
-        -o-background-size: auto 60%;
-        background-size: auto 60%;
-    }
     nav {
       font-size: 1em;
+    }
+
+    #home_logo {
+        display: block;
+        width: 75%;
+        height: auto;
+        vertical-align: middle;
+        margin: auto;
+    }
+    #home {
+        background: none;
     }
 }
 
 /* ----- Mobile (Landscape) -- 480px ----- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    #cover {
-        -webkit-background-size: 45% auto;
-        -moz-background-size: 45% auto;
-        -o-background-size: 45% auto;
-        background-size: 45% auto;
-    }
     nav {
       font-size: 1em;
     }
+
+    #home_logo {
+        display: block;
+        width: 45%;
+        height: auto;
+        vertical-align: middle;
+        margin: auto;
+    }
+    #home {
+        background: none;
+    }
 }
+
 

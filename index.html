@@ -45,17 +45,13 @@
         </div>
         {% endif %}
 
-        <!--{% if page.title == "home" %}-->
-          <!--<div class="container thumbnail_container {{ page.style }}">-->
-            <!--<div class="thumbnail">-->
-              <!--<img src="/img/Home.png">-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--{% else %}-->
+        {% if page.title == "home" %}
+            <img id="home_logo" src="/img/Home.png">
+        {% else %}
           <div class="container {{ page.style }}">
             {{ page.content }}
           </div>
-        <!--{% endif %}-->
+        {% endif %}
       </div>
     {% endfor %}
 
